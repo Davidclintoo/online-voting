@@ -46,7 +46,7 @@ def index():
         return redirect("/thank")
 
 
-    return render_template('index.html', msg = msg)
+    return render_template('index.html' , msg=msg)
 
 
 @app.route("/thank")
